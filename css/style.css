@@ -1,0 +1,44 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #161513;
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    padding-top: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.list-nav {
+    display: flex;
+    gap: 32px;
+}
+.header_talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #161513;
+    width: 124px;
+    height: 40px;
+}
+
+
+.section {
+    display: flex;
+    max-width: 1280px;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    max-width: 674px;
+}
+.hi {
+    font-size: 56px;
+}
