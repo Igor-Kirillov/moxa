@@ -2,7 +2,8 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     color: #161513;
     background-color: #F5F5F5;
-    max-width: 1440px;
+    max-width: 100vw;
+    height: 100vh;
 }
 a {
     text-decoration: none;
@@ -88,23 +89,31 @@ a {
 
 /* section2 naklon */
 
+.s2 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 26px;
+    max-width: 1440px;
+    height: 230px;
+    justify-content:center ;
+    align-items: center;
+    overflow: hidden;
+}
 .section2 {
     display: flex;
-    width: 100vw;
-    font-size: 18px;
-    justify-content: flex-start;
+    max-width: 100vw;
     align-items: center;
+    justify-content: center;
+    font-size: 18px;
     background-color: #161513;
     color: #ffffff;
-    margin-top: 107px;
     padding: 23px 20px 10px 14px;
     transform: rotate(-4.93deg);
-    margin-left: -7px;
-    overflow-x: hidden;
 }
 .section2_item1 {
     display: flex;
     align-items: center;
+    margin-left: 63px;
     width: 137.5px;
     height: 32px;
     gap: 17px;
