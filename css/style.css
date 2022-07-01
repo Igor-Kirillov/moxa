@@ -362,3 +362,135 @@ a {
 
 /* section6 */
 
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.section6_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.section6_header1 {
+    font-size: 45px;
+    letter-spacing: 1.44px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.section6_header2 {
+    font-size: 18px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+.section6_items {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+.section6_item1 {
+    display: flex;
+    width: 1060px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+}
+.section6_item2 {
+    display: flex;
+    width: 1060px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+.section6_text {
+    height: 307px;
+}
+.potfolio_text1 {
+    font-size: 18px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+}
+.potfolio_text2 {
+    font-size: 18px;
+    letter-spacing: 1.44px;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+}
+.potfolio_text3 {
+    font-size: 20px;
+}
+.potfolio1_style1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 169px;
+    height: 40px;
+    background: #E94D35;
+    margin-bottom: 33px;
+    margin-top: 19px;
+    padding-left: 12px;
+}
+.potfolio1_style2 {
+    width: 521px;
+    height: 112px;
+    margin-bottom: 54px;
+}
+
+.potfolio2_style1 {
+    display: flex;
+    align-items: center;
+    width: 119px;
+    height: 42px;
+    background: #E94D35;
+    margin-bottom: 30px;
+    margin-top: 21px;
+    padding-left: 12px;
+}
+.potfolio2_style2 {
+    width: 521px;
+    height: 112px;
+    margin-bottom: 54px;
+}
+
+.potfolio3_style1 {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    height: 42px;
+    background: #E94D35;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-left: 12px;
+}
+.potfolio3_style2 {
+    width: 521px;
+    height: 112px;
+    margin-bottom: -1px;
+}
+
+.potfolio4_style1 {
+    display: flex;
+    align-items: center;
+    width: 203px;
+    height: 42px;
+    background: #E94D35;
+    margin-bottom: 30px;
+    margin-top: 22px;
+    padding-left: 12px;
+}
+.potfolio4_style2 {
+    width: 521px;
+    height: 112px;
+    margin-bottom: 56px;
+    letter-spacing: 3.2px;
+}
