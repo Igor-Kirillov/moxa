@@ -1,36 +1,70 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     color: #161513;
-    background-color: #F5F5F5;
-    max-width: 100vw;
+    background-color: #f5f5f5;
+    width: 100vw;
     height: 100vh;
 }
 a {
     text-decoration: none;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
 /* header */
 
 .header {
+    padding: 0 80px;
+}
+
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
-    padding-top: 28px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+    padding: 27px 0;
 }
+
+.logo {
+    cursor: pointer;
+}
+
 .list-nav {
     display: flex;
     gap: 32px;
 }
+
+.item-nav {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid transparent;
+}
+
+.item-nav:hover {
+    border-color: #161513;
+}
+
+.item-nav a {
+    color: #161513;
+}
+
 .header_talk {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #161513;
-    width: 124px;
-    height: 40px;
+    padding: 9px 26px;
+}
+
+.header_talk a {
+    color: #161513;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* section1 hi */
@@ -55,7 +89,6 @@ a {
     padding-bottom: 35px;
     line-height: 67px;
     letter-spacing: 0.56px;
-
 }
 .welcome-list {
     display: flex;
@@ -95,7 +128,7 @@ a {
     margin-top: 26px;
     max-width: 1440px;
     height: 230px;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 }
@@ -117,7 +150,7 @@ a {
     width: 137.5px;
     height: 32px;
     gap: 17px;
-} 
+}
 .section2_item2 {
     display: flex;
     align-items: center;
@@ -189,12 +222,12 @@ a {
 }
 
 .section3_star::before {
-    content: "TAYLER";
+    content: 'TAYLER';
     font-size: 23px;
     margin-right: 14px;
 }
 .section3_star::after {
-    content: "BARTHHOLD";
+    content: 'BARTHHOLD';
     font-size: 23px;
     margin-left: 10px;
 }
@@ -219,11 +252,11 @@ a {
     display: flex;
     gap: 142px;
 }
-.section3_list1 { 
+.section3_list1 {
     font-size: 12px;
-    color: #E94D35;
+    color: #e94d35;
 }
-.section3_list2 { 
+.section3_list2 {
     font-size: 23px;
 }
 
@@ -237,7 +270,7 @@ a {
     max-width: 1056px;
     height: 153px;
     margin-top: 101px;
-    border: 2px solid #332F29;
+    border: 2px solid #332f29;
 }
 .section4_lists1 {
     width: 352px;
@@ -269,7 +302,7 @@ a {
 .section4_black1 {
     font-size: 56px;
     line-height: 63px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 9px;
     text-align: center;
 }
@@ -278,7 +311,7 @@ a {
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* section5 */
@@ -330,9 +363,10 @@ a {
     height: 48px;
     width: 48px;
     font-size: 18px;
-    color: #FFFFFF;
-    background-color: #E94D35;
-    align-items: center;justify-content: center;
+    color: #ffffff;
+    background-color: #e94d35;
+    align-items: center;
+    justify-content: center;
 }
 .section5_left2 {
     display: flex;
@@ -371,7 +405,6 @@ a {
     margin: 0 auto;
     margin-top: 120px;
 }
-
 
 /* .section6_header {
     display: flex;
@@ -416,8 +449,8 @@ a {
 .potfolio_text1 {
     font-size: 18px;
     letter-spacing: 1.44px;
-    text-transform: uppercase;  
-    color: #FFFFFF;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 .potfolio_text2 {
     font-size: 18px;
@@ -435,7 +468,7 @@ a {
     align-items: center;
     width: 169px;
     height: 40px;
-    background: #E94D35;
+    background: #e94d35;
     margin-bottom: 31px;
     margin-top: 21px;
     padding-left: 12px;
@@ -451,7 +484,7 @@ a {
     align-items: center;
     width: 119px;
     height: 42px;
-    background: #E94D35;
+    background: #e94d35;
     margin-bottom: 30px;
     margin-top: 21px;
     padding-left: 12px;
@@ -467,7 +500,7 @@ a {
     align-items: center;
     width: 139px;
     height: 42px;
-    background: #E94D35;
+    background: #e94d35;
     margin-bottom: 30px;
     margin-top: 50px;
     padding-left: 12px;
@@ -483,7 +516,7 @@ a {
     align-items: center;
     width: 203px;
     height: 42px;
-    background: #E94D35;
+    background: #e94d35;
     margin-bottom: 30px;
     margin-top: 22px;
     padding-left: 12px;
@@ -585,7 +618,7 @@ a {
 }
 .section9_block1 {
     display: flex;
-    background: #F2F1EF;
+    background: #f2f1ef;
     border: 2px solid #000000;
     max-width: 1058px;
     margin: 0 auto;
@@ -594,7 +627,7 @@ a {
     align-items: center;
     margin-bottom: 99px;
 }
-.section9_items {   
+.section9_items {
     position: relative;
     max-width: 1060px;
     margin: 0 auto;
@@ -614,7 +647,7 @@ a {
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
-    color: #E94D35;
+    color: #e94d35;
     top: -27px;
     gap: 17px;
 }
@@ -627,13 +660,13 @@ a {
     font-size: 16px;
     line-height: 24px;
     width: 457px;
-    height: 48px;    
+    height: 48px;
     margin-right: 15px;
 }
 
 .section9_block2 {
     display: flex;
-    background: #F2F1EF;
+    background: #f2f1ef;
     border: 2px solid #000000;
     max-width: 1056px;
     margin: 0 auto;
@@ -657,7 +690,7 @@ a {
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
-    color: #E94D35;
+    color: #e94d35;
     top: -27px;
     gap: 16px;
 }
@@ -671,13 +704,13 @@ a {
     font-size: 16px;
     line-height: 24px;
     width: 457px;
-    height: 45px;    
+    height: 45px;
     margin-right: 8px;
 }
 
 .section9_block3 {
     display: flex;
-    background: #F2F1EF;
+    background: #f2f1ef;
     border: 2px solid #000000;
     max-width: 1056px;
     margin: 0 auto;
@@ -701,7 +734,7 @@ a {
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
-    color: #E94D35;
+    color: #e94d35;
     top: -27px;
     gap: 14px;
 }
@@ -715,7 +748,7 @@ a {
     font-size: 16px;
     line-height: 24px;
     width: 457px;
-    height: 45px;    
+    height: 45px;
     margin-right: 6px;
 }
 .section9_item3-11 {
