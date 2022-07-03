@@ -589,24 +589,31 @@ a {
     border: 2px solid #000000;
     max-width: 1058px;
     margin: 0 auto;
-    height: 69px;
+    height: 68px;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 99px;
 }
 .section9_items {   
     margin-top: 34px;
-
 }
 .section9_item1 {
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-bottom: -13px;
+    margin-left: -5px;
 }
 .section9_item1-1 {
+    display: flex;
+    position: absolute;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
     color: #E94D35;
+    top: -27px;
+    gap: 17px;
 }
 .section9_item1-2 {
     font-size: 23px;
@@ -617,5 +624,6 @@ a {
     font-size: 16px;
     line-height: 24px;
     width: 457px;
-    height: 48px;
+    height: 48px;    
+    margin-right: 15px;
 }
