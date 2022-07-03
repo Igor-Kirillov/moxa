@@ -128,6 +128,7 @@ a {
     display: flex;
     height: 230px;
     align-items: center;
+    margin-bottom: 109px;
 }
 
 .features__list {
@@ -163,14 +164,18 @@ a {
     top: 5px;
 }
 
+.sections {
+    display: flex;
+    flex-direction: column;
+    padding: 0 190px;
+    gap: 100px;
+}
+
 /* section3 */
 
 .section3 {
     display: flex;
-    width: 1060px;
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 109px;
     gap: 64px;
 }
 
@@ -219,51 +224,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    max-width: 1056px;
-    height: 153px;
-    margin-top: 101px;
     border: 2px solid #332f29;
 }
-.section4_lists1 {
-    width: 352px;
-    text-align: center;
-}
-.section4_lists2 {
-    width: 352px;
-    text-align: center;
-}
-.section4_list1 {
-    font-size: 56px;
-    line-height: 60px;
-    margin-bottom: 12px;
-}
-.section4_list2 {
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 1.28px;
-    text-transform: uppercase;
-}
-.section4_black {
+
+.card {
     display: flex;
-    background-color: #161513;
-    width: 352px;
-    height: 156px;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 11px;
+    padding: 23px;
+    width: calc(100% / 3);
 }
-.section4_black1 {
+
+.card__title {
     font-size: 56px;
-    line-height: 63px;
-    color: #ffffff;
-    margin-bottom: 9px;
-    text-align: center;
+    line-height: 64px;
 }
-.section4_black2 {
+
+.card__subtitle {
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 1.28px;
     text-transform: uppercase;
+}
+
+.card--primary {
+    background-color: #332f29;
     color: #ffffff;
 }
 
@@ -274,9 +261,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1060px;
-    margin: 0 auto;
-    margin-top: 119px;
 }
 
 .section_header {
@@ -354,9 +338,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1060px;
-    margin: 0 auto;
-    margin-top: 120px;
 }
 
 /* .section6_header {
