@@ -405,58 +405,51 @@ a {
     justify-content: center;
     align-items: center;
 }
-.section7_item {
+.services__cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 40px;
 }
-.section7_item1 {
+.services__card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 506px;
-    height: 192px;
+    flex-grow: 1;
     border: 2px solid #161513;
+    width: calc(50% - 107px);
+    padding: 34px 49px 30px 34px;
     gap: 28px;
 }
-.section7_item1-1 {
+.card__title1 {
     font-size: 31px;
     letter-spacing: 0.64px;
-    margin-left: 32px;
     line-height: 41px;
 }
-.section7_item1-2 {
+.card__subtitle1 {
     font-size: 18px;
     line-height: 32px;
-    margin-left: 32px;
 }
 
 /* section8 */
 
-.section8 {
+.customer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 1060px;
-    margin: 0 auto;
-    margin-top: 161px;
 }
-.section8-items {
+.customer__cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 32px;
-    margin-top: -31px;
 }
-.section8-item {
+.customer__card {
     display: flex;
     border: 1px solid #131416;
     justify-content: center;
     align-items: center;
-    width: 239px;
-    height: 96px;
+    flex-grow: 1;
+    padding: 43px 0;
+    width: calc(25% - 32px);
 }
 
 /* section9 */
