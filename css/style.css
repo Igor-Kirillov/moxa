@@ -510,12 +510,10 @@ a {
     padding: 12px 456px 14px;
     font-size: 20px;
     line-height: 32px;
-    cursor: pointer;
 }
 .articles__blackcard a {
     color: #ffffff;
 }
-
 
 .halfsun {
     position: absolute;
