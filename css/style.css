@@ -502,114 +502,20 @@ a {
     width: calc(50% - 20px);
 }
 
-
-
-.section9_block2 {
+.articles__blackcard {
     display: flex;
-    background: #f2f1ef;
-    border: 2px solid #000000;
-    max-width: 1056px;
-    margin: 0 auto;
-    height: 68px;
-    justify-content: space-around;
+    background: #161513;
+    border: 2px solid #161513;
     align-items: center;
-    margin-bottom: 99px;
-    height: 100px;
-}
-.section9_item2 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: -14px;
-    margin-left: -11px;
-}
-.section9_item2-1 {
-    display: flex;
-    position: absolute;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 1.28px;
-    text-transform: uppercase;
-    color: #e94d35;
-    top: -27px;
-    gap: 16px;
-}
-.section9_item2-2 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.48px;
-    max-width: 426px;
-}
-.section9_item2-3 {
-    font-size: 16px;
-    line-height: 24px;
-    width: 457px;
-    height: 45px;
-    margin-right: 8px;
-}
-
-.section9_block3 {
-    display: flex;
-    background: #f2f1ef;
-    border: 2px solid #000000;
-    max-width: 1056px;
-    margin: 0 auto;
-    height: 68px;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 94px;
-    height: 100px;
-}
-.section9_item3 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: -17px;
-    margin-left: -12px;
-}
-.section9_item3-1 {
-    display: flex;
-    position: absolute;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 1.28px;
-    text-transform: uppercase;
-    color: #e94d35;
-    top: -27px;
-    gap: 14px;
-}
-.section9_item3-2 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.48px;
-    max-width: 423px;
-}
-.section9_item3-3 {
-    font-size: 16px;
-    line-height: 24px;
-    width: 457px;
-    height: 45px;
-    margin-right: 6px;
-}
-.section9_item3-11 {
-    width: 182px;
-}
-
-.section9_block4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #161513;
-    width: 1058px;
-    height: 58px;
-    margin: 0 auto;
-}
-.section9_block4 a {
-    text-decoration: none;
-    color: #ffffff;
+    padding: 12px 456px 14px;
     font-size: 20px;
     line-height: 32px;
+    cursor: pointer;
 }
+.articles__blackcard a {
+    color: #ffffff;
+}
+
 
 .halfsun {
     position: absolute;
