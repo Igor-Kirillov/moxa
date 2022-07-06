@@ -1,6 +1,7 @@
 /* как работает width:max-content ??? */
 /* как сделать так, чтобы при уменьшении ширины экрана текст не спрыгивал на соседние строчки */
 /* без min-width контент вылетает из блока */
+/* в какой тег заворачивать © Made by Portfolio Template & powered by Flowbase */
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -464,7 +465,6 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: #f2f1ef;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
@@ -529,8 +529,86 @@ a {
 .subscribe {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:#E6E3DE;
     padding: 60px 190px;
-    gap: 160px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
 }
 
+.subscribe__input {
+    box-sizing: border-box;
+    width: 354px;
+    height: 60px;
+    border: 2px solid #161513;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 12px 22px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+::placeholder {
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #161513;
+}
+:-ms-input-placeholder {
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #161513;
+}
+.subscribe__btn {
+    padding: 12px 15px;
+    margin-left: 24px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    background: #131416;
+    color: #ffffff;
+}
+
+/* footer */
+
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #161513;
+}
+.footer__information {
+    display: flex;
+    padding: 67px 190px 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color: #F2F1EF;
+}
+.footer__rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.useful__links {
+    display: flex;
+    gap: 46px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 16px;
+}
+.useful__links a {
+    color: #ffffff;
+}
+.social {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
